@@ -11,6 +11,9 @@ body::-webkit-scrollbar{
 a{
     text-decoration: none !important;
 }
+.required{
+    color: red;
+}
 .body{
     display: flex;
     width: 100vw;
