@@ -42,6 +42,7 @@
 }
 
 .body .content form .submit input{
+    margin-top: 20px;
     background-color: #385640;
     border: none;
     color: #fafafa;
