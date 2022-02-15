@@ -4,6 +4,7 @@
 }
 body{
     overflow-x:hidden;
+    min-height: 90vh;
 }
 body::-webkit-scrollbar{
     display: none;
