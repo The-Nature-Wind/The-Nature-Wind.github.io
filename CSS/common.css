@@ -298,20 +298,25 @@ margin-bottom: 20px;
 .body .profile .info span a:hover{
     color:rgb(39, 51, 42);
 }
+.edit-profile .img{
+    position: relative;
+}
 
 .edit-profile .img button{
     border: none;
-    background-color: #100051;
-    width: 35px;
-    height: 35px;
     border-radius: 50px;
-    color: white;
+
     padding: 5px;
-    margin:-50px 30px 30px auto;
+    position: absolute;
+    top: 70%;
+    right: 25%;
 
 }
 .edit-profile .img button i{
     margin: auto;
+    padding: 5px;
+    line-height: 0px;
+    font-size: 1rem;
 }
 /* search form */
 .body .summaries form{
@@ -320,7 +325,6 @@ margin-bottom: 20px;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
-    font-family: 'Cormorant Garamond', serif;
     border-radius: 7px;
 }
 
@@ -451,6 +455,13 @@ input::placeholder{
     padding: 0px 5px;
 }
 
+.updateprofile form .inputs{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+}
+.updateprofile form div{
+    width: 50%;
+}
 
 /* Footer Styling */
 .footer{
