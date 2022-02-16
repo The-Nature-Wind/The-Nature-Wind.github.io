@@ -1,7 +1,4 @@
-.body{
-    display: grid;
-    grid-template-columns: 1.5fr 4.5fr 1.3fr;
-}
+
 
 .body .form h1 span{
     margin-left: 15%;

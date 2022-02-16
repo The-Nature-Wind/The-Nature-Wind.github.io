@@ -1,9 +1,4 @@
-.body{
-    display: grid;
-    grid-template-columns: 1.5fr 4.5fr 1.3fr;
-}
 
-.body .photo{}
 
 .body .form h1{
     background-color: #385640;
