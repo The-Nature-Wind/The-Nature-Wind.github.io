@@ -547,6 +547,34 @@ input::placeholder{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.075) ;
 }
 
+/* Admin Dashboard */
+.dashboard{
+    padding: 20px;
+}
+.dashboard .side-content{
+    padding: 20px;
+}
+.dashboard ul{
+    list-style: none;
+}
+
+.dashboard ul li{
+    padding: 15px 2px;
+}
+.dashboard ul li:hover {
+    background-color: #100051;
+    border-radius: 5px;
+}
+.dashboard a{
+    color: black;
+}
+.dashboard ul li:hover a{
+    color: white;
+}
+.dashboard a span{
+    color: rgb(211, 20, 20);
+}
+
 /* Footer Styling */
 .footer{
     display: grid;
@@ -609,6 +637,7 @@ input::placeholder{
 .footer .social-media .social{
     padding: 7px;
 }
+
 
 /* Media Query */
 @media (max-width: 1460px){
